@@ -1,3 +1,4 @@
+import About from './containers/About'
 import Sidebar from './containers/Sidebar'
 import EstiloGlobal from './styles'
 
@@ -7,7 +8,7 @@ function App(): JSX.Element {
       <EstiloGlobal />
       <Sidebar />
       <main>
-        <section>about</section>
+        <About />
         <section>projects</section>
       </main>
     </>
