@@ -3,7 +3,7 @@ import Title from '../../components/Title'
 const About = () => (
   <>
     <section>
-      <Title>About</Title>
+      <Title fontSize={16}>About</Title>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
         pariatur aliquam nesciunt veritatis magni eius nam voluptatibus nostrum
