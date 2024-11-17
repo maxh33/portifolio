@@ -6,6 +6,10 @@ function App(): JSX.Element {
     <>
       <EstiloGlobal />
       <Sidebar />
+      <main>
+        <section>about</section>
+        <section>projects</section>
+      </main>
     </>
   )
 }
