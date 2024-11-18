@@ -9,16 +9,16 @@ const EstiloGlobal = createGlobalStyle`
     font-weight: 400;
     font-style: normal;
     list-style: none;
-    }
+  }
 
-    body {
-      padding-top: 80px;
+  body {
+    padding-top: 80px;
 
-      @media (max-width: 768px) {
-        padding-top: 16px;
-      }
+    @media (max-width: 768px) {
+      padding-top: 16px;
     }
-  `
+  }
+`
 
 export default EstiloGlobal
 
@@ -33,9 +33,9 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;
+  }
 
   img {
     width: 100%;
-    border-radius: 50%;
   }
 `

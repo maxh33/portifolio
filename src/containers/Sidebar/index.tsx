@@ -1,4 +1,3 @@
-import exp from 'constants'
 import Title from '../../components/Title'
 
 const Sidebar = () => (
