@@ -1,15 +1,19 @@
+import About from './containers/About'
+import Projects from './containers/Projects'
 import Sidebar from './containers/Sidebar'
-import EstiloGlobal from './styles'
+import EstiloGlobal, { Container } from './styles'
 
 function App(): JSX.Element {
   return (
     <>
       <EstiloGlobal />
-      <Sidebar />
-      <main>
-        <section>about</section>
-        <section>projects</section>
-      </main>
+      <Container>
+        <Sidebar />
+        <main>
+          <About />
+          <Projects />
+        </main>
+      </Container>
     </>
   )
 }
