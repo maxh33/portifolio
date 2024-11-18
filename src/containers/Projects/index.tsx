@@ -1,24 +1,41 @@
+import Project from '../../components/Project'
 import Title from '../../components/Title'
 
+import { List } from './styles'
+
 const Projects = () => (
-  <>
-    <section>
-      <Title fontSize={16}>Projects</Title>
-    </section>
-    <h1>Projects</h1>
-    <p>Here are some of the projects I have worked on.</p>
-    <ul>
+  <section>
+    <Title fontSize={16}>Projects</Title>
+    <List>
       <li>
-        <a href="/projects/project-1">Project 1</a>
+        <Project />
       </li>
       <li>
-        <a href="/projects/project-2">Project 2</a>
+        <Project />
       </li>
       <li>
-        <a href="/projects/project-3">Project 3</a>
+        <Project />
       </li>
-    </ul>
-  </>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+      <li>
+        <Project />
+      </li>
+    </List>
+  </section>
 )
 
 export default Projects
