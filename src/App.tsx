@@ -5,8 +5,8 @@ import EstiloGlobal, { Container } from './styles'
 import About from './containers/About'
 import Projects from './containers/Projects'
 import Sidebar from './containers/Sidebar'
-import lightTheme from './themes/light'
 import darkTheme from './themes/dark'
+import lightTheme from './themes/light'
 
 function App() {
   const [isUsingDarkTheme, setIsUsingDarkTheme] = useState(false)
