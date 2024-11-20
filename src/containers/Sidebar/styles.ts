@@ -14,12 +14,18 @@ export const ButtonTheme = styled.button`
   font-weight: bold;
   font-size: 10px;
   cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: ${(props) => props.theme.secondaryColor};
+  }
 `
 
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
-  left: 0;
+  left: 0px;
+  margin-left: 20px;
 
   @media (max-width: 768px) {
     margin-bottom: 40px;

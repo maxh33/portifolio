@@ -18,7 +18,7 @@ This project showcases my portfolio of projects, built with React and styled-com
 
 - Dark and Light Theme Toggle: Easily switch between dark and light themes.
 - Responsive Design: Optimized for both desktop and mobile devices.
-- Real-time GitHub Integration: (Future Improvement) Automatically fetch and display the latest updates from my GitHub repositories.
+- Real-time GitHub Integration: Automatically fetch and display the latest updates from my GitHub repositories.
 - Customizable Components: Easily adapt the components for personal portfolios, developer portfolios, project showcases, and resume websites.
 
 ## Deployment

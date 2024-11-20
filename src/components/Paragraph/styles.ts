@@ -9,4 +9,5 @@ export const P = styled.p<Props>`
       ? props.theme.primaryColor
       : props.theme.secondaryColor};
   line-height: 22px;
+  margin-bottom: 16px;
 `
