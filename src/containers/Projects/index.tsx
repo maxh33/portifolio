@@ -1,52 +1,13 @@
-import Project from '../../components/Project'
+import React from 'react'
 import Title from '../../components/Title'
+import Repositories from '../../components/Project/index'
 
 import { List } from './styles'
 
 const Projects = () => (
   <section>
-    <Title fontSize={16}>Projects</Title>
-    <List>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-    </List>
+    <Title fontSize={16}>My GitHub Repositories</Title>
+    <Repositories />
   </section>
 )
 
