@@ -1,5 +1,7 @@
+import React from 'react'
 import Project from '../../components/Project'
 import Title from '../../components/Title'
+import Repositories from '../../components/Repositories/Repositories'
 
 import { List } from './styles'
 
@@ -11,40 +13,7 @@ const Projects = () => (
         <Project />
       </li>
       <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
-      </li>
-      <li>
-        <Project />
+        <Repositories />
       </li>
     </List>
   </section>
